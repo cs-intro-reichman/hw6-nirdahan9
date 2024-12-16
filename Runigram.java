@@ -8,7 +8,7 @@ public class Runigram {
 		//// Hide / change / add to the testing code below, as needed.
 		
 		// Tests the reading and printing of an image:	
-		Color[][] tinypic = read("tinypic.ppm");
+		Color[][] tinypic = read("./tinypic.ppm");
 		print(tinypic);
 
 		// Creates an image which will be the result of various 
@@ -176,7 +176,7 @@ public class Runigram {
 			StdDraw.pause(500);
 		}
 	}
-	
+
 	/** Creates a canvas for the given image. */
 	public static void setCanvas(Color[][] image) {
 		StdDraw.setTitle("Runigram 2023");
