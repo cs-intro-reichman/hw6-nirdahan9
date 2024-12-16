@@ -61,6 +61,8 @@ import java.io.IOException;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URI;
+
 
 import java.util.LinkedList;
 import java.util.TreeSet;
